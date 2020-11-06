@@ -1,0 +1,3 @@
+# The first method invocation raises an ArgumentError. The method find_first_nonzero_among was given 6 arguments but expects only 1 (specified by the parameter numbers).
+
+# The second method invocation raises a NoMethodError. The method parameter numbers is now bound to the provided argument 1, so it tries to evaluate 1.each do ... end, i.e. it tries to call each on the Integer 1. Since integers do not have an each method, this raises a NoMethodError.
